@@ -1,0 +1,5 @@
+en:
+  resource:
+    attributes:
+      wheelhouse/site:
+        google_analytics_code: Google Analytics Tracking Code
