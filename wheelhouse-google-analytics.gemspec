@@ -11,8 +11,9 @@ Gem::Specification.new do |s|
   s.author      = "Sam Pohlenz"
   s.email       = "info@wheelhousecms.com"
   s.homepage    = "https://www.wheelhousecms.com/"
+  s.license     = "MIT"
   
-  s.files        = Dir["{app,config,lib}/**/*", "README.md"]
+  s.files        = Dir["{app,config,lib}/**/*", "README.md", "LICENSE"]
   s.require_path = "lib"
   
   s.add_dependency("wheelhouse", "~> 1.0")
