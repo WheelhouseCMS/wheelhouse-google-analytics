@@ -3,3 +3,11 @@ en:
     attributes:
       wheelhouse/site:
         google_analytics_code: Google Analytics Tracking Code
+    
+    errors:
+      models:
+        wheelhouse/site:
+          attributes:
+            google_analytics_code:
+              invalid: A valid tracking code is required (e.g. UA-12345678-1)
+          
