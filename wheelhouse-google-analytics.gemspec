@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = "wheelhouse-google-analytics"
   s.platform    = Gem::Platform::RUBY
-  s.version     = "1.0"
+  s.version     = "1.1"
 
   s.required_ruby_version     = ">= 1.8.7"
   s.required_rubygems_version = ">= 1.3.6"
