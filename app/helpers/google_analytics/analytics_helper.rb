@@ -4,6 +4,6 @@ module GoogleAnalytics::AnalyticsHelper
   end
   
   def render_google_analytics?
-    Rails.env.production? && site.google_analytics_code? && !controller.env['wheelhouse.preview']
+    Rails.env.production? && site.google_analytics_code? && !request.env['wheelhouse.preview']
   end
 end
